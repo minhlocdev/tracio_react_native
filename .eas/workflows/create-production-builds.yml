@@ -1,0 +1,18 @@
+name: Create Production Builds
+
+jobs:
+  build_android:
+    type: build
+    name: Build Android (production)
+    params:
+      platform: android
+      profile: production
+      message: "Android production build triggered"
+
+  build_ios:
+    type: build
+    name: Build iOS (production)
+    params:
+      platform: ios
+      profile: production
+      message: "iOS production build triggered"
