@@ -2,6 +2,7 @@
   "expo": {
     "name": "tracio",
     "slug": "tracio",
+    "scheme": "tracio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,18 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.tamgiacquy.tracio"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9fc61137-c7d5-4e11-b037-33c5d4aebbbc"
+      }
+    },
+    "owner": "minhlocdev",
+    "plugins": ["expo-router", "expo-sqlite", "expo-secure-store"]
   }
 }
