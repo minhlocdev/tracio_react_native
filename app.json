@@ -4,6 +4,8 @@
     "slug": "tracio",
     "scheme": "tracio",
     "version": "1.0.0",
+    "platforms": ["android"],
+    "assetBundlePatterns": ["**/*"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
