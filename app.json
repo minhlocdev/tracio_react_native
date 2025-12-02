@@ -16,7 +16,9 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tamgiacquy.tracio",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
