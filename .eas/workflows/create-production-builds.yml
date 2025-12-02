@@ -10,11 +10,3 @@ jobs:
       platform: android
       profile: production
       message: "Android production build triggered"
-
-  build_ios:
-    type: build
-    name: Build iOS (production)
-    params:
-      platform: ios
-      profile: production
-      message: "iOS production build triggered"
